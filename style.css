@@ -1,0 +1,630 @@
+/* 
+    font-family: 'Cormorant Infant', serif;
+    font-family: 'Josefin Sans', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+/* universal_code */
+body{
+    letter-spacing: 0.2px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.same-button{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 57px;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(225, 177, 104, 1);
+    display: inline-block;
+}
+.same-button:hover{
+    color: rgba(255, 255, 255, 1);;
+}
+.line{
+    letter-spacing: 3px;
+    display: inline-block ; 
+}
+.line::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(225, 177, 104, 1);
+    display: block;
+    margin-bottom: 4.5px;
+}
+.line::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(225, 177, 104, 1);
+    display: block;
+    margin-top: 4.5px;
+}
+.yellow{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: rgba(225, 177, 104, 1);
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+.title{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 40px;
+    line-height: 56px;
+
+}
+/* header_starting */
+header{
+    width: 100%;
+    background-color: rgba(41, 46, 54, 1);
+
+}
+/* *** navbars_starting *** */
+header .navbars .first{
+    padding: 50px 0px;
+    border-bottom: 1px solid rgba(92, 97, 104, 1);
+}
+header .navbars p ,ul li a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: rgba(255, 255, 255, 1);
+}
+header .navbars button{
+    padding: 20px 85px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.44px;
+    background-color: rgba(225, 177, 104, 1);
+    border: none;
+    color: rgba(41, 46, 54, 1);
+}
+header .navbars .second{
+    padding: 26px 0px;
+}
+header .navbars .second i{
+    color: white;
+}
+/* *** header_title-starting *** */
+header .header_title {
+    padding-bottom: 20px;
+}
+header .header_title h1{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 100px;
+    line-height: 110px;
+    padding-top: 220px;
+    padding-bottom: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+header .header_title p{
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 35px;
+}
+/* section_starting */
+section{
+    width: 100%;
+}
+/* *** location_starting *** */
+section .location{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: rgba(255, 248, 245, 1);
+}
+section .location .box img{
+    margin-right: 40px;
+}
+section .location .delicious{
+    padding-top: 84px;
+    padding-bottom: 124px;
+}
+section .location   .texts p{
+    color: rgba(41, 46, 54, 1);;
+}
+section .location .delicious .texts .title{
+    margin-bottom: 15px;
+}
+section .location .delicious .texts .all{
+    margin-top: 25px;
+}
+section .location .delicious .texts .all p{
+    margin-bottom: 20px;
+}
+/* *** menu_starting *** */
+section .menu{
+    padding: 140px 0px;
+}
+section .menu .line{
+    color: rgba(41, 46, 54, 1);
+}
+section .menu p{
+    color: rgba(85, 85, 85, 1);
+}
+section .menu .left .title{
+    margin-bottom: 13%;
+}
+section .menu .left p {
+    margin-bottom: 45px;
+}
+section .menu .left .same-button{
+    margin-top: 60px;
+}
+section .menu .right .box {
+    margin-bottom: 50px;
+}
+section .menu .right .box .texts{
+    margin-left: 20px;
+}
+section .menu .right .box .texts h5{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+section .menu .right .box .texts p{
+    display: flex;
+}
+section .menu .right .box .texts p span{
+    display: flex;
+    align-items: center;
+}
+section .menu .right .box .texts p span::before{
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color: rgba(170, 170, 170, 1);
+}
+section .menu .right  .sc ,.th{
+    margin-bottom: 40px;
+}
+/* *** testimional_startig *** */
+section .testimional{
+    background-color: rgba(41, 46, 54, 1);
+    padding: 130px 0px;
+}
+section .testimional .line  ,p ,.title{
+    color: rgba(255, 255, 255, 1);
+    
+
+}
+section .testimional .line::after{
+    width: 140px;
+}
+section .testimional .line::before{
+    width: 140px;
+}
+section .testimional .all{
+    margin-top: 80px;
+}
+section .testimional .box {
+    background-color: rgba(52, 57, 66, 1);
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+section .testimional .box .img{
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(121, 126, 137, 1);
+    
+} 
+section .testimional .box .pg{
+    margin-top: 30px;
+}
+/* *** offers_starting *** */
+section .offers{
+    padding: 120px;
+    text-align: center;
+}
+section .offers .box{
+    padding: 60px 40px 45px 40px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+section .offers .box .texts img{
+    margin-bottom: 44px;
+}
+/* *** work_starting *** */
+section .work{
+    padding: 140px 0px;
+    background-color: rgba(41, 46, 54, 1);
+    margin: 100px 0px;
+}
+section .work .box{
+    background: url('./img/border.png')no-repeat center  ;
+    text-align: center;
+    padding: 50px;
+}
+/* *** blog_starting *** */
+section .blog{
+    padding-bottom: 140px;
+}
+section .blog .box {
+    position: relative;
+}
+section .blog  .line{
+    color: rgba(41, 46, 54, 0.95);
+}
+section .blog .box .same-button{
+    position: absolute;
+    top: 120px;
+    margin: auto;
+    right: 30%;
+}
+section .blog .box img{
+    filter: brightness(0.56);
+}
+section .blog .box .texts{
+    padding: 48px;
+    border: 1px solid rgba(196, 196, 196, 1);
+}
+section .blog .box .texts .line ,.title{
+    color: rgba(41, 46, 54, 1);
+}
+section .blog .box .texts p{
+    color: rgba(85, 85, 85, 1);
+    margin-top: 24px;
+}
+/* *** reservation_starting *** */
+section .reservation{
+    background: url('./img/restaurant.png')no-repeat center / cover ;
+    padding: 140px 0px;
+}
+section .reservation .box{
+    margin: auto;
+}
+section .reservation .ft input{
+    padding: 18px 0px;
+    padding-left: 23px;
+    padding-right: 140px;
+    background: transparent;
+    color: rgba(255, 255, 255, 1);
+}
+section .reservation .ft input:nth-of-type(1){
+    margin-right: 50px;
+}
+section .reservation .title{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 35px;
+}
+section .reservation .box{
+    background-color: rgba(41, 46, 54, 0.95);
+    border-radius: 15px;
+    text-align: center;
+    padding: 150px 100px;
+}
+section .reservation .ft{
+    margin-bottom: 30px;
+  
+}
+section .reservation .ft input::placeholder{
+    color: rgba(255, 255, 255, 1);
+}
+section .reservation .sc input{
+    padding: 18px 0px;
+    padding-left: 25px;
+    padding-right: 30px;
+    background: transparent;
+    color: rgba(255, 255, 255, 1);
+    
+}
+section .reservation .sc input::placeholder{
+    color: rgba(255, 255, 255, 1);
+}
+section .reservation .same-button{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 20px;
+}
+/* footer_starting */
+footer{
+    padding: 120px;
+    background-color: rgba(41, 46, 54, 1);
+}
+footer .title{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 133px;
+}
+footer .line{
+    margin-bottom: 33px;
+}
+footer .logo{
+    text-align: center;
+}
+footer .logo .input-group{
+    margin-top: 25px;
+}
+footer .logo .input-group input{
+    padding: 18px ;
+    padding-left: 24px;
+    padding-right: 120px;
+    background: transparent;
+    color: rgba(255, 255, 255, 1);
+}
+footer .logo .input-group input::placeholder{
+    color: rgba(255, 255, 255, 1);
+}
+footer .logo .input-group button{
+    padding: 18px 40px;
+    background-color: rgba(255, 255, 255, 1);
+}
+footer .icon{
+    display: flex;
+    justify-content: space-between;
+}
+footer .icon i{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+}
+footer .sc{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(225, 177, 104, 1);
+}
+footer .wp {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* media_starting */
+/* lg 1199-992 */
+@media (max-width:1199.98px) {
+    header .navbars button {
+        padding: 15px 60px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px; 
+        line-height: 33px;
+        letter-spacing: 0.44px;
+        background-color: rgba(225, 177, 104, 1);
+        border: none;
+        color: rgba(41, 46, 54, 1);
+    }
+    .same-button {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 20px 51px;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(225, 177, 104, 1);
+        display: inline-block;
+    }
+
+}
+/* md = 991-768 */
+@media (max-width:991.98px){
+    header .navbars button {
+        padding: 8px 31px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.44px;
+        background-color: rgba(225, 177, 104, 1);
+        border: none;
+        color: rgba(41, 46, 54, 1);
+    }
+    .same-button {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 8px 25px;
+        font-size: 19px;
+        line-height: 33px;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(225, 177, 104, 1);
+        display: inline-block;
+    }
+    .yellow {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        color: rgba(225, 177, 104, 1);
+    }
+    header .navbars ul li a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 1);
+    }
+    header .header_title h1 {
+        font-family: 'Cormorant Infant', serif;
+        font-size: 79px;
+        line-height: 78px;
+        padding-top: 150px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 1);
+    }
+    header .header_title p {
+        color: rgba(255, 255, 255, 1);
+        padding-bottom: 14px;
+    }
+    section .location .box{
+        margin-top: 20px;
+    }
+    .title {
+        font-family: 'Cormorant Infant', serif;
+        font-size: 34px;
+        line-height: 48px;
+    }
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    section .menu .right .box .texts h5 {
+        font-family: 'Cormorant Infant', serif;
+        font-size: 25px;
+        line-height: 36px;
+    }
+    section .menu .left img{
+       margin: auto ;
+    }
+    section .menu .left .same-button {
+        display: none;
+    }
+    section .offers .box{
+        margin-top: 20px;
+    }
+    section .blog .box .same-button {
+        position: absolute;
+        top: 10%;
+        margin: none;
+        right: 29%;
+    }
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 15px;
+        line-height: 19px;
+    } 
+    .title {
+        font-family: 'Cormorant Infant', serif;
+        font-size: 30px;
+        line-height: 39px;
+    }
+    section .reservation .ft input {
+        padding: 15px 0px;
+        padding-left: 7px;
+        padding-right: 62px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+    section .reservation .sc input {
+        padding: 16px 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+    footer .logo .input-group input {
+        padding: 18px;
+        padding-left: 24px;
+        padding-right: 31px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+    footer .logo .input-group button {
+        padding: 18px 9px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    footer .icon {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    footer .times{
+        text-align: center;
+    }
+
+}
+/* sm = 767-576 */
+@media (max-width:767.98px){
+    header .navbars .same-button{
+        display: flex;
+        justify-content: center;
+    }
+    .same-button {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 2px 10px;
+        font-size: 19px;
+        line-height: 33px;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(225, 177, 104, 1);
+        display: inline-block;
+    }
+    header .navbars ul{
+        text-align: center;
+        flex-direction: column;
+    }
+    header .navbars ul li{
+        padding-top: 25px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+    header .header_title h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 66px;
+    line-height: 67px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    }
+    section .menu .right .box .texts p span::before {
+        content: '';
+        width: 0px;
+        height: 1px;
+        background-color: rgba(170, 170, 170, 1);
+    }
+    header .header_title .same-button{
+        margin-bottom: 15px;
+    }
+    header .navbars button {
+        display: none;
+    }
+    section .blog .box .same-button {
+        position: absolute;
+        top: 10%;
+        margin: none;
+        right: 38%;
+    }
+    section .offers .box img{
+        display: none;
+    }
+    section .offers .box p{
+        color: rgba(121, 126, 137, 1);
+    }
+    section .reservation .ft input {
+        padding: 15px 0px;
+        padding-left: 5px;
+        padding-right: 0px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+    section .blog .box .texts p {
+        color: rgba(85, 85, 85, 1);
+        margin-top: 24px;
+        font-size: 11px;
+    }
+    section .reservation{
+        display: none;
+    }
+    section .reservation .sc input:nth-of-type(1){
+        margin-right: 15px;
+    }
+    section .reservation .sc .th{
+        display: none;
+    }
+    footer .contact{
+        text-align: center;
+    }
+    footer .title {
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 72px;
+    }
+    footer .logo .input-group input {
+        padding: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+}
